@@ -19,7 +19,7 @@ jobs:
       - name: Install and Build Log4brains
         run: |
           npm install -g log4brains
-          log4brains build
+          cd docs && log4brains build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
