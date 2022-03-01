@@ -24,6 +24,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4.2.5
         with:
           branch: gh-pages
-          folder: .log4brains/out
+          folder: docs/.log4brains/out
           target-folder: adrs
           commit-message: "[skip ci]"
