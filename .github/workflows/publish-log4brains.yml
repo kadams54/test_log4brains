@@ -25,5 +25,4 @@ jobs:
         with:
           branch: gh-pages
           folder: docs/.log4brains/out
-          target-folder: adrs
           commit-message: "[skip ci]"
