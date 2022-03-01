@@ -1,0 +1,5 @@
+project:
+  name: test_log4brains
+  tz: America/Indianapolis
+  adrFolder: ./adr
+  packages: []
